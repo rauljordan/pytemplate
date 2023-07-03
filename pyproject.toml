@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "inspyre"
+name = "pytemplate"
 version = "0.1.0"
 description = ""
 authors = ["Raul Jordan <raul@prysmaticlabs.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-inspyre = "inspyre.main:main"
+inspyre = "pytemplate.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"

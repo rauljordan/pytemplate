@@ -32,13 +32,6 @@ repos:
         files: ^(inspyre/|tests/)
         language: system
         types: [python]
-      # - id: coverage
-      #   name: local pytest coverage
-      #   description: runs pytest along with coverage
-      #   entry: poetry run pytest --cov inspyre tests
-      #   files: ^(inspyre/|tests/)
-      #   language: system
-      #   types: [python]
       - id: safety
         name: local safety
         description: check for vulnerabilities in packages.
