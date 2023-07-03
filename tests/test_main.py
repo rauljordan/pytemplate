@@ -1,7 +1,7 @@
 import click.testing
 import pytest
 
-from inspyre import main
+from inspyre import example
 
 
 @pytest.fixture
@@ -10,5 +10,5 @@ def runner():
 
 
 def test_main_succeeds(rner):
-    result = rner.invoke(main.main)
+    result = rner.invoke(example.main)
     assert result.exit_code == 0
