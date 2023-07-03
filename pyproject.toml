@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "inspyre"
+version = "0.1.0"
+description = ""
+authors = ["Raul Jordan <raul@prysmaticlabs.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+wemake-python-styleguide = "^0.18.0"
+flake8-pytest-style = "^1.7.2"
+mypy = "^1.4.1"
+safety = "^2.3.5"
+pre-commit = "^3.3.3"
+nitpick = "^0.33.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
